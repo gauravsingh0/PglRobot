@@ -75,10 +75,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a  Powerfull  group management bot. You can find my list of available commands with /help.
-Maintained by [Gaurav™ [🇮🇳]](t.me/iisgaurav)
+Maintained by [♕︎╚«𝐺𝑅𝐵»╝⫸ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊™ [🥰]](t.me/grb_network)
 """
 G_START_TEXT = """
-Hello PglRobot Is In The Chat.
+Hello ⚡【𝐆】【𝐔】【𝐄】【𝐒】【𝐓】⚡ Is In The Chat.
 Uptime - {}!
 """
 
@@ -102,14 +102,14 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/f1d7b30b05ba9f0dbf4e5.jpg"
+PglRobot_IMG = "https://telegra.ph/file/a08ed0aecfe2c0078add1.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/e8881931bc000c75e8f13.jpg"
+PglRobotG_IMG f"https://telegra.ph/file/a08ed0aecfe2c0078add1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [AuraX Owner](https://t.me/iisgaurav).
- Those who cannot provide monetary support are welcome to help us develop the bot at @AuraXSupport.
- [PayPal](paypal.me/gauravv03)"""
+ You can support the project by contacting [GRB OWNER](https://t.me/Black_heart_hacker_xon).
+ Those who cannot provide monetary support are welcome to help us develop the bot at @grb_network.
+ [Owner](https://t.me/Black_heart_hacker_xon)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -226,34 +226,34 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝗔𝗗𝗗 𝗠𝗘⚡️",
-                                url="t.me/{}?startgroup=true".format(
+                                text="ADD TO UR GROUPS",
+                                url="t.me/GROUP_GUEST_BOT?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
                             InlineKeyboardButton(
-                                text="𝗣𝗴𝗹𝗭𝗼𝗻𝗲⚡️",
-                                url="https://t.me/PglZone",
+                                text="MSTI GROUP",
+                                url="https://t.me/yone_support_official",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡️",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                text="SUPPORT",
+                                url=f"https://t.me/https://t.me/yone_support_official",
                             ),
                             InlineKeyboardButton(
-                                text="𝗖𝗥𝗘𝗔𝗧𝗘𝗥⚡️",
-                                url="https://t.me/iisgaurav",
+                                text="MY BF",
+                                url="https://t.me/Black_heart_hacker_xon",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="𝗨𝗽𝗱𝗮𝘁𝗲𝘀⚡️",
-                                url="https://t.me/PglRobotUpdates",
+                                text="UPDATES",
+                                url="https://t.me/grb_network",
                             ),
                             InlineKeyboardButton(
-                                text="𝗥𝗘𝗣𝗢⚡️",
-                                url="https://github.com/iisgaurav/PglRobot",
+                                text="FEDERATION",
+                                url="https://t.me/gaurboofedration",
                             ),
                         ],
                     ]
@@ -572,7 +572,7 @@ def get_settings(update: Update, context: CallbackContext):
                 ),
             )
         else:
-            text = "Click here to check your settings."
+            text = "Click here to check your settings."j
 
     else:
         send_settings(chat.id, user.id, True)
@@ -637,7 +637,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "PglRobot now ready to work!"
+                f"@{SUPPORT_CHAT}", "⚡【𝐆】【𝐔】【𝐄】【𝐒】【𝐓】⚡ is alive!"
             )
         except Unauthorized:
             LOGGER.warning(
