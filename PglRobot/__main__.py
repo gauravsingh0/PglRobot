@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a  Powerfull  group management bot. You can find my list of available commands with /help.
-Maintained by [♕︎╚«𝐺𝑅𝐵»╝⫸ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊™ [🥰]](t.me/grb_network)
 """
+
 G_START_TEXT = """
 Hello ⚡【𝐆】【𝐔】【𝐄】【𝐒】【𝐓】⚡ Is In The Chat.
 Uptime - {}!
@@ -109,7 +109,7 @@ PglRobotG_IMG f"https://telegra.ph/file/a08ed0aecfe2c0078add1.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting [GRB OWNER](https://t.me/Black_heart_hacker_xon).
  Those who cannot provide monetary support are welcome to help us develop the bot at @grb_network.
- [Owner](https://t.me/Black_heart_hacker_xon)"""
+ """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -231,22 +231,22 @@ def start(update: Update, context: CallbackContext):
                                     context.bot.username
                                 ),
                             ),
-                            InlineKeyboardButton(
-                                text="MSTI GROUP",
-                                url="https://t.me/yone_support_official",
-                            ),
+                         
+
+
+      
                         ],
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT",
                                 url=f"https://t.me/https://t.me/yone_support_official",
                             ),
-                            InlineKeyboardButton(
-                                text="MY BF",
-                                url="https://t.me/Black_heart_hacker_xon",
-                            ),
-                        ],
-                        [
+
+
+
+
+ 
+
                             InlineKeyboardButton(
                                 text="UPDATES",
                                 url="https://t.me/grb_network",
